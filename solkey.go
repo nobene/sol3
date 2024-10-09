@@ -89,5 +89,5 @@ func step(num string, mnemonic string) {
 		panic(err)
 	}
 
-	fmt.Println("     " + num +"   Default address:   " + wallet.PublicKey().String())
+	fmt.Println("     +" + num +"   Default address:   " + wallet.PublicKey().String())
 }
